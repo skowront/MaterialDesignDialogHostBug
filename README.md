@@ -4,9 +4,11 @@ Repository with trials of solutions to a disappearing popup bug. The popup disap
 
 The solution found in one of the issues on github is:
 
-<materialDesign:DialogHost.Style>
+'''
+&lt;materialDesign:DialogHost.Style>
             <Style BasedOn="{StaticResource MaterialDesignEmbeddedDialogHost}" TargetType="{x:Type materialDesign:DialogHost}">
             </Style>
-</materialDesign:DialogHost.Style>
+</materialDesign:DialogHost.Style&gt;
+'''
 
 This is ultimately suspicious.
